@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
   * [面试经历](mian-shi-jing-li.md)
+  * [Jvm](jvm.md)
+    * 1. 内存模型以及分区
 * [Java](java.md)
   * [Java Web](java/java-web.md)
     * [Servlet](java/java-web/servlet.md)
