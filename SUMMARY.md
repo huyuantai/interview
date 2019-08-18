@@ -8,7 +8,7 @@
     * [3.垃圾回收算法，不同算法的优缺点](jvm/3la-ji-hui-shou-suan-fa-ff0c-bu-tong-suan-fa-de-you-que-dian.md)
     * [4.CMS原理](jvm/3la-ji-hui-shou-suan-fa-ff0c-bu-tong-suan-fa-de-you-que-dian/4cmsyuan-li.md)
     * [5.G1原理](jvm/g1yuan-li.md)
-    * 6.CMS与G1的区别
+    * [6.CMS与G1的区别](jvm/6cmsyu-g1-de-qu-bie.md)
 * [Java](java.md)
   * [Java Web](java/java-web.md)
     * [Servlet](java/java-web/servlet.md)
