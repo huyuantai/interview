@@ -3,7 +3,7 @@
 * [Introduction](README.md)
   * [面试经历](mian-shi-jing-li.md)
   * [Jvm](jvm.md)
-    * [1.内存模型与分区](jvm/nei.md)
+    * [1.内存模型以及分区，需要详细到每个区放什么](jvm/nei.md)
 * [Java](java.md)
   * [Java Web](java/java-web.md)
     * [Servlet](java/java-web/servlet.md)
