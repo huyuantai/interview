@@ -5,6 +5,7 @@
   * [Jvm](jvm.md)
     * [1.内存模型以及分区，需要详细到每个区放什么](jvm/nei.md)
     * [2.类加载器的过程](jvm/2lei-jia-zai-qi-de-guo-cheng.md)
+    * [3.垃圾回收算法，不同算法的优缺点](jvm/3la-ji-hui-shou-suan-fa-ff0c-bu-tong-suan-fa-de-you-que-dian.md)
 * [Java](java.md)
   * [Java Web](java/java-web.md)
     * [Servlet](java/java-web/servlet.md)
