@@ -22,6 +22,7 @@ https://www.jianshu.com/p/bdd6f03923d1
 
 # G1的GC模式 Young GC和Mixed GC
 ##### 1.YoungGC
+为了避免在回收年轻代的时候扫描整个老年代，需要记录老年代对年轻代的引用
 
 - 根扫描,跟CMS类似，Stop the world，扫描GC Roots对象。
 - 处理Dirty card,更新RSet.
