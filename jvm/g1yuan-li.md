@@ -7,5 +7,6 @@
 ![](/assets/v2-f0dce4cd9774335782e20e01a14fb55a_hd.jpg)
 
 #### G1收集器的内存模型
+![](/assets/v2-8f3ff3c893b1460062885e5122adf4bb_hd.jpg)
 
 
