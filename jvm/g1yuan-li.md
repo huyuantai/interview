@@ -24,7 +24,7 @@ https://zhuanlan.zhihu.com/p/59861022
 
 - 根扫描,跟CMS类似，Stop the world，扫描GC Roots对象。
 - 处理Dirty card,更新RSet.
-- 扫描RSet,扫描RSet中所有old区对扫描到的young区或者survivor去的引用。
+- 扫描RSet,扫描RSet中所有old区到young区或者survivor区的引用。
 - 拷贝扫描出的存活的对象到survivor2/old区
 - 处理引用队列，软引用，弱引用，虚引用
 
