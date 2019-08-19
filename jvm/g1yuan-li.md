@@ -9,7 +9,7 @@
 #### G1收集器的内存模型
 - 区域(Region)的大小可以通过-XX:G1HeapRegionSize参数指定，大小区间最小1M、最大32M，总之是2的幂次方
 - 每个Region被标记了E、S、O和H，这些区域在逻辑上被映射为Eden，Survivor和老年代
-- 
+- Humongous区域是为了那些存储超过50%标准region大小的对象而设计的，它用来专门存放巨型对象。如果一个H区装不下一个巨型对象，那么G1会寻找连续的H分区来存储。为了能找到连续的H区，有时候不得不启动Full GC
 ![](/assets/v2-8f3ff3c893b1460062885e5122adf4bb_hd.jpg)
 
 
