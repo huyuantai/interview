@@ -19,6 +19,7 @@ http://www.ideabuffer.cn/2017/04/04/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E7%
 - 阻塞队列 
 存储工作线程来不及处理的任务
 - ctl 用位数表示不同信息
+![](/assets/v2-aaa7b72a965683f8f638735a508079db_hd.jpg)
 
 
 # 队列
