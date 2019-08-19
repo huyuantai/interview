@@ -13,6 +13,6 @@
 ![](/assets/v2-8f3ff3c893b1460062885e5122adf4bb_hd.jpg)
 
 # G1收集器的阶段分以下几个步骤
-
+![](/assets/v2-2658c595b28461db9d6c25ae99d41508_hd.jpg)
 
 
