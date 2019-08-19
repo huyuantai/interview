@@ -22,8 +22,9 @@ https://www.jianshu.com/p/bdd6f03923d1
 
 # G1的GC模式 Young GC和Mixed GC
 ##### 1.YoungGC
-> 为了避免在回收年轻代的时候扫描整个老年代，需要记录老年代对年轻代的引用
-G1在Card Table的基础上引入的remembered set(下面简称RSet)。每个region都会维护一个RSet，记录着引用到本region中的对象的其他region的Card
+> - 为了避免在回收年轻代的时候扫描整个老年代，需要记录老年代对年轻代的引用
+- G1在Card Table的基础上引入的remembered set(下面简称RSet)。每个region都会维护一个RSet，记录着引用到本region中的对象的其他region的Card
+- 这要求RSet不只是维护老年代到年轻代的引用，也要维护这老年代到老年代的引用，对于跨代引用的每次只要扫描这个region的RSet上的Card即可
 
 - 根扫描,跟CMS类似，Stop the world，扫描GC Roots对象。
 - 处理Dirty card,更新RSet.
