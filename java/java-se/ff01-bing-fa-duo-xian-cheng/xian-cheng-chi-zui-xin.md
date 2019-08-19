@@ -3,6 +3,8 @@ https://zhuanlan.zhihu.com/p/33264000
 同步错误和死锁，资源不足和线程泄漏
 http://blog.163.com/wm_at163/blog/static/132173490201242984518354/
 
+http://www.ideabuffer.cn/2017/04/04/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E7%BA%BF%E7%A8%8B%E6%B1%A0%EF%BC%9AThreadPoolExecutor/#addWorker%E6%96%B9%E6%B3%95
+
 # 为什么使用线程池
 - 减少线程创建和销毁线程,减少系统资源的开销
 - 减少线程之间过度切换
