@@ -20,5 +20,17 @@ https://zhuanlan.zhihu.com/p/59861022
 首先对各个Regin的回收价值和成本进行排序，根据用户所期待的GC停顿时间指定回收计划，回收一部分Region
 
 # G1的GC模式 Young GC和Mixed GC
+##### 1.YoungGC
+
+- 根扫描,跟CMS类似，Stop the world，扫描GC Roots对象。
+- 处理Dirty card,更新RSet.
+- 扫描RSet,扫描RSet中所有old区对扫描到的young区或者survivor去的引用。
+- 拷贝扫描出的存活的对象到survivor2/old区
+- 处理引用队列，软引用，弱引用，虚引用
+##### 2. mixed gc
+
+当越来越多的对象晋升到老年代old region时，为了避免堆内存被耗尽，虚拟机会触发一个混合的垃圾收集器，即mixed gc，该算法并不是一个old gc，除了回收整个young region，还会回收一部分的old region，这里需要注意：是一部分老年代，而不是全部老年代，可以选择哪些old region进行收集，从而可以对垃圾回收的耗时时间进行控制。
+
+G1没有fullGC概念，需要fullGC时，调用serialOldGC进行全堆扫描（包括eden、survivor、o、perm）
 
 
