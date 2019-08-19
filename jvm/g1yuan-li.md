@@ -7,6 +7,8 @@
 ![](/assets/v2-f0dce4cd9774335782e20e01a14fb55a_hd.jpg)
 
 #### G1收集器的内存模型
+区域(Region)的大小可以通过
+-XX:G1HeapRegionSize参数指定，大小区间最小1M、最大32M，总之是2的幂次方
 ![](/assets/v2-8f3ff3c893b1460062885e5122adf4bb_hd.jpg)
 
 
