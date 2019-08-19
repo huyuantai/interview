@@ -19,4 +19,6 @@ https://zhuanlan.zhihu.com/p/59861022
 #### 筛选回收
 首先对各个Regin的回收价值和成本进行排序，根据用户所期待的GC停顿时间指定回收计划，回收一部分Region
 
+# G1的GC模式
+
 
