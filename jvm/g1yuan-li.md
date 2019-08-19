@@ -1,5 +1,5 @@
 https://zhuanlan.zhihu.com/p/59861022
-https://www.jianshu.com/p/bdd6f03923d1
+https://www.jianshu.com/p/bdd6f03923d1 (垃圾回收器比较: G1 vs CMS)
 
 # G1收集器的应用场景
 - 服务端多核CPU、JVM内存占用较大的应用（至少大于4G）
