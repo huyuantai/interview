@@ -16,7 +16,7 @@ Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
 
 分为一组starter 启动器
 
-pom依赖
+#### 1.起步依赖分析pom依赖
 spring-boot-starter-parent  pom
 1.引用spring-boot-dependencies 依赖，里面包含spring-boot的所有依赖jar包的定义
 2.定义build 包含resources的配置文件，**/application*.yml，**/application*.properties
