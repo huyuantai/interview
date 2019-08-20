@@ -7,11 +7,7 @@ https://zhuanlan.zhihu.com/p/53016043
 - 2.自动配置原理
 
 
-#### 自动配置原理
-Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
-- @Configuration
-- @ComponentScan
-- @EnableAutoConfiguration
+
 
 
 分为一组starter 启动器
@@ -22,11 +18,16 @@ spring-boot-starter-parent  pom
 - 2.定义build 包含resources的配置文件，**/application*.yml，**/application*.properties
 
 
-自动配置原理
-依靠 @SpringBootApplication 
-@SpringBootConfiguration : 表明这是个配置类
-@ComponentScan :
-@EnableAutoConfiguration 
+
+#### 2.自动配置原理  依靠 @SpringBootApplication 
+
+Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
+- @Configuration
+- @ComponentScan
+- @EnableAutoConfiguration
+
+
+
 
 @EnableAutoConfiguration 中包含的AutoConfigurationImportSelector 
 @AutoConfigurationPackage
