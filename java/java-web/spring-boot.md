@@ -7,4 +7,4 @@ spring boot 项目
 
 
 #### 自动配置原理
-自动配置
+Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
