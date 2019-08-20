@@ -1,5 +1,6 @@
-https://mp.weixin.qq.com/s/3TSkT9AYZduJ2CEfAIx7vg?tdsourcetag=s_pcqq_aiomsg
-spring boot 项目
+http://tengj.top/2017/03/09/springboot3/
+https://my.oschina.net/u/3039671/blog/787195
+https://zhuanlan.zhihu.com/p/53016043
 
 # spring boot 启动原理
 - 1.起步依赖分析
@@ -12,12 +13,25 @@ Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
 - @ComponentScan
 - @EnableAutoConfiguration
 
-http://tengj.top/2017/03/09/springboot3/
-https://my.oschina.net/u/3039671/blog/787195
-https://zhuanlan.zhihu.com/p/53016043
 
-###　@EnableAutoConfiguration
-１.加载不同classpath所有jar中的META-INF/spring.factories这个文件，从这个文件中提出key为org.springframework.boot.autoconfigure.EnableAutoConfiguration的值，而这些值就是一些自动配置类
+分为一组starter 启动器
+
+pom依赖
+spring-boot-starter-parent  pom
+1.引用spring-boot-dependencies 依赖，里面包含spring-boot的所有依赖jar包的定义
+2.定义build 包含resources的配置文件，**/application*.yml，**/application*.properties
+
+
+自动配置原理
+依靠 @SpringBootApplication 
+@SpringBootConfiguration : 表明这是个配置类
+@ComponentScan :
+@EnableAutoConfiguration 
+
+@EnableAutoConfiguration 中包含的AutoConfigurationImportSelector 
+@AutoConfigurationPackage
+@Import(AutoConfigurationImportSelector.class)
+1.加载不同classpath所有jar中的META-INF/spring.factories这个文件，从这个文件中提出key为org.springframework.boot.autoconfigure.EnableAutoConfiguration的值，而这些值就是一些自动配置类
 2.这些配置类会读取
 
 
