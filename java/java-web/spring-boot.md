@@ -11,7 +11,13 @@ https://my.oschina.net/u/3039671/blog/787195
 
 
 分为一组starter 启动器，
-每组中有各自的jar中的META-INF/spring.factories，定义加载哪些AutoConfiguration
+每组中有各自的jar中的META-INF/spring.factories，定义加载哪些AutoConfiguration，AutoConfiguration配置中定义application*.properties的对应的key名称等等
+
+
+
+
+
+
 
 #### 1.起步依赖分析pom依赖
 spring-boot-starter-parent  pom
