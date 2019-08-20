@@ -8,3 +8,6 @@ spring boot 项目
 
 #### 自动配置原理
 Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
+- @Configuration
+- @ComponentScan
+- @EnableAutoConfiguration
