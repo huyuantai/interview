@@ -10,7 +10,8 @@ https://my.oschina.net/u/3039671/blog/787195
 
 
 
-分为一组starter 启动器
+分为一组starter 启动器，
+每组中有各自的jar中的META-INF/spring.factories
 
 #### 1.起步依赖分析pom依赖
 spring-boot-starter-parent  pom
