@@ -28,11 +28,12 @@ Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
 
 
 
-@EnableAutoConfiguration 中包含的AutoConfigurationImportSelector 
+@EnableAutoConfiguration 
 @AutoConfigurationPackage
 @Import(AutoConfigurationImportSelector.class)
-1.加载不同classpath所有jar中的META-INF/spring.factories这个文件，从这个文件中提出key为org.springframework.boot.autoconfigure.EnableAutoConfiguration的值，而这些值就是一些自动配置类
-2.这些配置类会读取
+AutoConfigurationImportSelector 中的实现
+- 1.加载不同classpath所有jar中的META-INF/spring.factories这个文件，从这个文件中提出key为org.springframework.boot.autoconfigure.EnableAutoConfiguration的值，而这些值就是一些自动配置类
+- 2.这些配置类会读取
 
 
 如：SpringBoot中的META-INF/spring.factories（完整路径：spring-boot/spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories）
