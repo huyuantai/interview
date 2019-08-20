@@ -11,3 +11,5 @@ Spring Boot 的开启注解是：@SpringBootApplication，由下面组成
 - @Configuration
 - @ComponentScan
 - @EnableAutoConfiguration
+
+http://tengj.top/2017/03/09/springboot3/
