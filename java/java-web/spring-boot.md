@@ -18,7 +18,9 @@ https://my.oschina.net/u/3039671/blog/787195
 ###　@EnableAutoConfiguration
 １.加载不同classpath所有的META-INF/spring.factories这个文件，从这个文件中提出key为org.springframework.boot.autoconfigure.EnableAutoConfiguration的值，而这些值就是一些自动配置类
 
+
 如：mybatis提供的META-INF/spring.factories内容
 > Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration
+
