@@ -1,2 +1,8 @@
-Eureka, Ribbon, Hystrix, Feign, Zuul, Config, Bus
+Eureka, 
+Ribbon, 
+Hystrix, 
+Feign, 
+Zuul, 
+Config, 
+Bus
 
