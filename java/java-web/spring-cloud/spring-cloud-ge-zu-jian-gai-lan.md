@@ -1,5 +1,5 @@
 Eureka, nacos 注册中心
-Ribbon, 
+Ribbon, 负载均衡
 Hystrix, 
 Feign, 
 Zuul, 
