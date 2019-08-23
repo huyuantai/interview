@@ -1,4 +1,4 @@
-Eureka, 
+Eureka, nacos 注册中心
 Ribbon, 
 Hystrix, 
 Feign, 
