@@ -1,7 +1,7 @@
 Eureka, nacos 注册中心
 Ribbon, 负载均衡
-Hystrix, 
-Feign, 
+Hystrix, 降级 熔断
+Feign, 代理底层网络通信
 Zuul, 
 Config, 
 Bus
