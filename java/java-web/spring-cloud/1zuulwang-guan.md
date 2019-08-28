@@ -6,3 +6,8 @@
 - 负载卸载 预先为每种类型的请求分配容量，当请求超过容量时自动丢弃。
 - 静态资源处理 直接在边界返回某些响应
 - 降级 熔断
+
+# zuul启动
+> 
+@EnableZuulProxy
+public class GatewayZuulDemoApplication {
