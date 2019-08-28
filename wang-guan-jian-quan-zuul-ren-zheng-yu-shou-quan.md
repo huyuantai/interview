@@ -11,3 +11,9 @@ app h5 只需要登录
 
 网关
 https://blog.csdn.net/u010963948/article/details/85016359
+
+不了解项目的auth2 jwt 
+
+auth2 + token  ： token其实就是像session一样，由服务端维护，就像如果客户端禁用了Cookie，我们也可以用在请求添加token，来实现session的效果，这里的token就是这个原理
+
+auth2 + jwt 
