@@ -8,3 +8,6 @@ https://github.com/itmuch/spring-cloud-docker-microservice-book-code
 # springcloud各类 oauth2 鉴权
 https://github.com/huyuantai/springcloud-book
 
+
+# springcloud各类 oauth2 鉴权
+https://github.com/forezp/SpringCloudLearning
