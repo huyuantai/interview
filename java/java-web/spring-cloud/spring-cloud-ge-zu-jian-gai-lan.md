@@ -26,3 +26,6 @@ SpringCloud是一套目前比较网站微服务框架了，整合了分布式常
 从架构上分析
 Dubbo内部实现功能没有SpringCloud强大（全家桶），只是实现服务治理，缺少分布式配置中心、网关、链路、总线等，如果需要用到这些组件，需要整合其他框架。
 
+spring cloud的不同版本的选择
+https://www.liangzl.com/get-article-detail-40511.html
+
