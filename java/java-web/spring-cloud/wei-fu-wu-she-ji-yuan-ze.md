@@ -6,3 +6,5 @@ https://github.com/gf-huanchupk/SpringCloudLearning
 
 # springcloud各类 oauth2 鉴权
 https://github.com/huyuantai/springcloud-book
+
+https://github.com/itmuch/spring-cloud-docker-microservice-book-code
