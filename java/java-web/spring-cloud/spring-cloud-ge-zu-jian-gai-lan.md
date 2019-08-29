@@ -2,7 +2,7 @@ Eureka, nacos 注册中心
 Ribbon, 负载均衡
 Hystrix, 降级 熔断
 Feign, 代理底层网络通信
-Zuul, spring-cloud-gatewa  网关，统一鉴权，负载均衡，路由等，做各个服务共同的事情，因为服务互相独立
+Zuul, spring-cloud-gateway  网关，统一鉴权，负载均衡，路由等，做各个服务共同的事情，因为服务互相独立
 https://blog.csdn.net/qq_40650378/article/details/83061160
 Config, 分布式配置
 Bus 消息总线
