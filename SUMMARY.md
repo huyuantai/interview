@@ -1,6 +1,7 @@
 # Summary
 
 * [面试资料网址](README.md)
+  * 技术思维方式！！
   * [面试经历](mian-shi-jing-li.md)
   * [学习各方面](xue-xi-ge-fang-mian.md)
 * [Jvm](jvm.md)
