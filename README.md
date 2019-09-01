@@ -6,5 +6,5 @@ https://github.com/love-somnus/interview
 #### 互联网扫盲
 https://github.com/huyuantai/advanced-java 
 
-#### 重复支付
+#### 防止重复支付
 https://juejin.im/
