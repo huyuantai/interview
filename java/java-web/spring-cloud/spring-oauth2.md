@@ -8,3 +8,7 @@ https://zhuanlan.zhihu.com/p/30720675
 - 隐式：用于移动 APP 或 web 应用（应用运行在用户的设备上）
 - 用户密码凭证：同一个公司不同系统之间内部账户互联互通，比如国内某社区的代码托管系统通过社区的账户也可以登录。
 - 客户端凭证：第三方应用自身服务访问提供 OAuth2 服务提供的平台资源
+
+
+## 代码学习
+http://blog.didispace.com/spring-security-oauth2-xjf-1/
