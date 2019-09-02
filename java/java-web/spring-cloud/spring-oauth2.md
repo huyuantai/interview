@@ -1,4 +1,5 @@
 https://segmentfault.com/a/1190000013467122
+https://zhuanlan.zhihu.com/p/30720675
 
 授权许可
 在第一张授权流程图中，前四步包含了获取授权许可获取 access token ,授权许可有四种类型，服务端返回哪种类型取决于客户端在请求链接中构建的 response_type 参数。四种类型的授权许可有不同的应用场景：
