@@ -42,7 +42,6 @@ ls -a 列出全部文件，包含隐藏文件
 - #### grep：在文本文件中查找某个字符串
 > grep test *file : #查找前缀有“test”的文件包含“test”字符串的文件
 > testfile1:This a Linux testfile! #列出testfile1 文件中包含test字符的行 
-
 > grep -r update /etc/acpi 下所有文件中包含字符串"update"的文件
 
 
