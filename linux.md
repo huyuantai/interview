@@ -1,3 +1,5 @@
+https://www.cnblogs.com/huststl/p/8540775.html
+
 # 系统信息 
 arch 显示机器的处理器架构(1) 
 uname -m 显示机器的处理器架构(2) 
