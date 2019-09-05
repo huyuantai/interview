@@ -50,7 +50,7 @@ ls -a 列出全部文件，包含隐藏文件
 > chmod ugo+rwx directory1 设置目录的所有人(u)、群组(g)以及其他人(o)以读（r，4 ）、写(w，2)和执行(x，1)的权限 
 > chmod go-rwx directory1  删除群组(g)与其他人(o)对目录的读写执行权限
  
-
+- #### chown : 修改文件的拥有者
 
 
  
