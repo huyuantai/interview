@@ -54,6 +54,7 @@
   * [ThreadLocal类型变量为何声明为静态](java/threadlocallei-xing-bian-liang-wei-he-sheng-ming-wei-jing-tai.md)
 * [Dubbo](dubbo.md)
   * [Dubbo原理](dubbo/dubboyuan-li.md)
+* [Linux](linux.md)
 * [数据库](shu-ju-ku.md)
   * [Sql](shu-ju-ku/sql.md)
     * [sql 课程创建](shu-ju-ku/sql/sql-ke-cheng-chuang-jian.md)
@@ -83,5 +84,5 @@
 * [Redis](redis.md)
   * [1.redis key 设计](redis/1redis-key-she-ji.md)
 * [并发各类指标QPS 数据库](bing-fa-ge-lei-zhi-biao-qps-shu-ju-ku.md)
-* [网关鉴权 zuul 认证与授权](wang-guan-jian-quan-zuul-ren-zheng-yu-shou-quan.md)
+* [Linux](linux.md)
 
