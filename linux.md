@@ -225,7 +225,7 @@ less file1 类似于 'more' 命令，但是它允许在文件中和正向操作�
 head -2 file1 查看一个文件的前两行 
 tail -2 file1 查看一个文件的最后两行 
 tail -f /var/log/messages 实时查看被添加到一个文件中的内容 
-文本处理 
+# 文本处理 
 cat file1 file2 ... | command <> file1_in.txt_or_file1_out.txt general syntax for text manipulation using PIPE, STDIN and STDOUT 
 cat file1 | command( sed, grep, awk, grep, etc...) > result.txt 合并一个文件的详细说明文本，并将简介写入一个新文件中 
 cat file1 | command( sed, grep, awk, grep, etc...) >> result.txt 合并一个文件的详细说明文本，并将简介写入一个已有的文件中 
