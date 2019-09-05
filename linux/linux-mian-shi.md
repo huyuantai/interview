@@ -1,3 +1,5 @@
+https://cloud.tencent.com/developer/article/1398000
+
 # 文件和目录
 #### 1.cd：切换到的目录的路径，可以是绝对路径，也可以是相对路径
 > cd ~user1   进入个人的主目录 
