@@ -45,7 +45,7 @@ ls -a 列出全部文件，包含隐藏文件
 > grep -r update /etc/acpi 下所有文件中包含字符串"update"的文件
 
 
-
+# 文件的权限
 
 
  
