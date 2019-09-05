@@ -55,6 +55,7 @@ ls -a 列出全部文件，包含隐藏文件
 > chown -R user1 directory1 改变一个目录的所有人属性并同时改变改目录下所有文件的属性 
 > chown user1:group1 file1 改变一个文件的所有人和群组属性
 
+- #### chgrp ： 修改文件的用户组
 
 
  
