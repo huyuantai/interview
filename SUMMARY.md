@@ -55,6 +55,7 @@
 * [Dubbo](dubbo.md)
   * [Dubbo原理](dubbo/dubboyuan-li.md)
 * [Linux](linux.md)
+  * [Linux 面试](linux/linux-mian-shi.md)
 * [数据库](shu-ju-ku.md)
   * [Sql](shu-ju-ku/sql.md)
     * [sql 课程创建](shu-ju-ku/sql/sql-ke-cheng-chuang-jian.md)
