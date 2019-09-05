@@ -139,7 +139,7 @@ chattr +S file1 一旦应用程序对这个文件执行了写操作，使系统�
 chattr +u file1 若文件被删除，系统会允许你在以后恢复这个被删除的文件 
 lsattr 显示特殊的属性 
 
-打包和压缩文件 
+# 打包和压缩文件 
 bunzip2 file1.bz2 解压一个叫做 'file1.bz2'的文件 
 bzip2 file1 压缩一个叫做 'file1' 的文件 
 gunzip file1.gz 解压一个叫做 'file1.gz'的文件 
