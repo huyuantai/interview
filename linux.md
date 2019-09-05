@@ -77,7 +77,7 @@ locate \*.ps 寻找以 '.ps' 结尾的文件 - 先运行 'updatedb' 命令
 whereis halt 显示一个二进制文件、源码或man的位置 
 which halt 显示一个二进制文件或可执行文件的完整路径 
 
-挂载一个文件系统 
+# 挂载一个文件系统 
 mount /dev/hda2 /mnt/hda2 挂载一个叫做hda2的盘 - 确定目录 '/ mnt/hda2' 已经存在 
 umount /dev/hda2 卸载一个叫做hda2的盘 - 先从挂载点 '/ mnt/hda2' 退出 
 fuser -km /mnt/hda2 当设备繁忙时强制卸载 
@@ -90,7 +90,8 @@ mount -o loop file.iso /mnt/cdrom 挂载一个文件或ISO镜像文件
 mount -t vfat /dev/hda5 /mnt/hda5 挂载一个Windows FAT32文件系统 
 mount /dev/sda1 /mnt/usbdisk 挂载一个usb 捷盘或闪存设备 
 mount -t smbfs -o username=user,password=pass //WinClient/share /mnt/share 挂载一个windows网络共享 
-磁盘空间 
+
+# 磁盘空间 
 df -h 显示已经挂载的分区列表 
 ls -lSr |more 以尺寸大小排列文件和目录 
 du -sh dir1 估算目录 'dir1' 已经使用的磁盘空间' 
@@ -98,7 +99,7 @@ du -sk * | sort -rn 以容量大小为依据依次显示文件和目录的大小
 rpm -q -a --qf '%10{SIZE}t%{NAME}n' | sort -k1,1n 以大小为依据依次显示已安装的rpm包所使用的空间 (fedora, redhat类系统) 
 dpkg-query -W -f='${Installed-Size;10}t${Package}n' | sort -k1,1n 以大小为依据显示已安装的deb包所使用的空间 (ubuntu, debian类系统) 
 
-用户和群组 
+# 用户和群组 
 groupadd group_name 创建一个新用户组 
 groupdel group_name 删除一个用户组 
 groupmod -n new_group_name old_group_name 重命名一个用户组 
