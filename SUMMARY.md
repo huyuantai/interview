@@ -39,6 +39,7 @@
     * [基本数据类型](java/java-se/ji-ben-shu-ju-lei-xing.md)
     * [面向对象](java/java-se/mian-xiang-dui-xiang.md)
     * [！Java集合](java/java-se/javaji-he.md)
+      * [HashMap](java/java-se/javaji-he/hashmap.md)
     * [异常处理](java/java-se/yi-chang-chu-li.md)
     * [泛型](java/java-se/fan-xing.md)
     * [！并发多线程](java/java-se/ff01-bing-fa-duo-xian-cheng.md)
