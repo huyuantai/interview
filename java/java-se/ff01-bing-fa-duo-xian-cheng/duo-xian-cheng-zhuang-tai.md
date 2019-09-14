@@ -6,4 +6,5 @@ https://blog.csdn.net/xiangwanpeng/article/details/54972952
 join()方法会使当前线程等待调用join()方法的线程结束后才能继续执行
 
 ###　automInteger 原理
+
 乐观锁：CAS+自旋。 Unsafe在jdk8已经封装了getAndAddInt可以直接给AtomicXXXXX类使用
