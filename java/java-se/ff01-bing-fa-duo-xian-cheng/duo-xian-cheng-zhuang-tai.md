@@ -2,3 +2,5 @@
 
 #### sleep()，wait()，yield()和join()方法的区别
 https://blog.csdn.net/xiangwanpeng/article/details/54972952
+
+join()方法会使当前线程等待调用join()方法的线程结束后才能继续执行
