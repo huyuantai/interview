@@ -8,3 +8,15 @@ join()方法会使当前线程等待调用join()方法的线程结束后才能�
 ###　automInteger 原理
 
 乐观锁：CAS+自旋。 Unsafe在jdk8已经封装了getAndAddInt可以直接给AtomicXXXXX类使用
+
+``` java
+public final int incrementAndGet() {
+        for (;;) {
+            int current = get();
+            int next = current + 1;
+            if (compareAndSet(current, next))
+                return next;
+        }
+    }
+
+``` 
