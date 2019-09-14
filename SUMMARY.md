@@ -50,6 +50,7 @@
       * [线程池](java/java-se/ff01-bing-fa-duo-xian-cheng/xian-cheng-chi.md)
       * [线程池最新](java/java-se/ff01-bing-fa-duo-xian-cheng/xian-cheng-chi-zui-xin.md)
       * [synchronized与Lock的区别](java/java-se/ff01-bing-fa-duo-xian-cheng/synchronizedyu-lock-de-qu-bie.md)
+      * [多线程状态](java/java-se/ff01-bing-fa-duo-xian-cheng/duo-xian-cheng-zhuang-tai.md)
     * [Java回调](java/java-se/javahui-diao.md)
   * [设计模式](she-ji-mo-shi.md)
   * [ThreadLocal类型变量为何声明为静态](java/threadlocallei-xing-bian-liang-wei-he-sheng-ming-wei-jing-tai.md)
