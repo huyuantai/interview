@@ -4,7 +4,7 @@
 
 # 2.内存模型不同
 - CMS:Eden S1 S2 Old
-- G1:以region分区，分区内逻辑分（E S O H）
+- G1:以region分区，分区内逻辑分（E S O H），扩容容易
 - G1:大对象直接被分配到H区中，不会像CMS那样应大对象放不下而引起full gc
 
 #3.STW的时间
