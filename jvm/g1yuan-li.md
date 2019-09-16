@@ -1,7 +1,7 @@
 
 https://www.jianshu.com/p/bdd6f03923d1 (垃圾回收器比较: G1 vs CMS)
 https://www.jianshu.com/p/cc6b98b1640e G1讲解
-https://www.jianshu.com/p/7dd309cc3442 G1讲解
+https://www.jianshu.com/p/7dd309cc3442 G1讲解重点
 
 
 # G1收集器的应用场景
