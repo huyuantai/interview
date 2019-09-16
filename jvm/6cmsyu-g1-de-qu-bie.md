@@ -5,6 +5,7 @@
 # 2.内存模型不同
 - CMS:Eden S1 S2 Old
 - G1:以region分区，分区内逻辑分（Eden S1 S2 Old）
+     大对象直接被分配到H区中
 
 #3.STW的时间
 - CMS收集器以最小的停顿时间为目标的收集器。
