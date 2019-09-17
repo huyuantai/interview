@@ -4,6 +4,7 @@
   * [技术思维方式！！](ji-zhu-si-wei-fang-shi-ff01-ff01.md)
   * [面试经历](mian-shi-jing-li.md)
   * [学习各方面](xue-xi-ge-fang-mian.md)
+  * [思维思路](si-wei-si-lu.md)
 * [Jvm](jvm.md)
   * [1.内存模型以及分区，需要详细到每个区放什么](jvm/nei.md)
   * [2.类加载器的过程](jvm/2lei-jia-zai-qi-de-guo-cheng.md)
